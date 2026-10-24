@@ -16,11 +16,13 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
 
-      - run: yarn
-      - run: yarn build
-      - run: yarn publish --access=public --tag=next
+      - uses: oven-sh/setup-bun@v2
+
+      - run: bun install
+      - run: bun run build
+      - run: bun publish --access public --tag next
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Get package info
         id: package

@@ -45,14 +45,12 @@ jobs:
       # Checkout to target branch
       - uses: actions/checkout@v2
 
-      # Setup node environment
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 18
+      # Setup bun environment
+      - uses: oven-sh/setup-bun@v2
 
       # Bump version to the next prerelease (patch) with rc suffix
       - name: Suggest the new version
-        run: yarn version --prerelease --preid rc --no-git-tag-version
+        run: bun pm version prerelease --preid rc --no-git-tag-version
 
       # Get package new version name
       - name: Get package info
