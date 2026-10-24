@@ -1,4 +1,5 @@
 const { optimize } = require('svgo');
+const { Resvg } = require('@resvg/resvg-js');
 const path = require('path');
 const fs = require('fs');
 
@@ -28,6 +29,25 @@ class IconsGenerator {
     this.OUTPUT_SRC_DIR = path.join(this.ROOT_DIR, 'src');
     this.OUTPUT_ICONS_DIR = path.join(this.OUTPUT_DIST_DIR, 'icons');
     this.OUTPUT_BUNDLE_FILE = path.join(this.OUTPUT_SRC_DIR, 'index.ts');
+    this.OUTPUT_SHOWCASE_FILE = path.join(this.ROOT_DIR, 'showcase.png');
+
+    /**
+     * Showcase image layout: white icons on a dark background, 2x scale
+     */
+    this.SHOWCASE = {
+      columns: 11,
+      iconSize: 48,
+      step: 96,
+      paddingX: 218,
+      paddingY: 158,
+      background: '#17191F',
+      color: '#FFFFFF'
+    };
+
+    /**
+     * Optimized icons to be drawn on the showcase image
+     */
+    this.SHOWCASE_ICONS = [];
 
     /**
      * Preparing lines for the table of icons which will be inserted to README file
@@ -56,6 +76,7 @@ class IconsGenerator {
     this.processSvgFiles();
 
     this.updateReadme();
+    this.renderShowcase();
 
     this.showReport();
   }
@@ -143,6 +164,11 @@ class IconsGenerator {
        * Push new icon to the table of icons
        */
       this.pushIconToTable(icon);
+
+      /**
+       * Keep icon for the showcase image
+       */
+      this.SHOWCASE_ICONS.push(icon);
     });
   }
 
@@ -257,6 +283,39 @@ class IconsGenerator {
      * Write new README.md file
      */
     fs.writeFileSync(this.README_FILE, readmeLines.join('\n'));
+  }
+
+  /**
+   * Render all icons as a grid to the showcase.png image
+   */
+  renderShowcase() {
+    console.log('🖼 Rendering the showcase.png image');
+
+    const { columns, iconSize, step, paddingX, paddingY, background, color } = this.SHOWCASE;
+    const rows = Math.ceil(this.SHOWCASE_ICONS.length / columns);
+    const width = paddingX * 2 + step * (columns - 1) + iconSize;
+    const height = paddingY * 2 + step * (rows - 1) + iconSize;
+
+    /**
+     * Place each icon as a nested <svg> scaled to the cell size
+     */
+    const cells = this.SHOWCASE_ICONS.map(({ svg }, index) => {
+      const x = paddingX + step * (index % columns);
+      const y = paddingY + step * Math.floor(index / columns);
+
+      return svg.replace('<svg ', `<svg x="${x}" y="${y}" `)
+        .replace(/ width="[^"]*"/, ` width="${iconSize}"`)
+        .replace(/ height="[^"]*"/, ` height="${iconSize}"`);
+    });
+
+    const showcaseSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" color="${color}">`
+      + `<rect width="100%" height="100%" fill="${background}"/>`
+      + cells.join('')
+      + '</svg>';
+
+    const png = new Resvg(showcaseSvg).render().asPng();
+
+    fs.writeFileSync(this.OUTPUT_SHOWCASE_FILE, png);
   }
 
   /**
