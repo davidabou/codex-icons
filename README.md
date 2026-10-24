@@ -69,13 +69,16 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconDotCircle](dist/icons/IconDotCircle.svg) | `IconDotCircle` |
 | ![IconEtcHorisontal](dist/icons/IconEtcHorisontal.svg) | `IconEtcHorisontal` |
 | ![IconEtcVertical](dist/icons/IconEtcVertical.svg) | `IconEtcVertical` |
+| ![IconExternalLink](dist/icons/IconExternalLink.svg) | `IconExternalLink` |
 | ![IconEye](dist/icons/IconEye.svg) | `IconEye` |
 | ![IconFile](dist/icons/IconFile.svg) | `IconFile` |
 | ![IconGift](dist/icons/IconGift.svg) | `IconGift` |
 | ![IconGlobe](dist/icons/IconGlobe.svg) | `IconGlobe` |
+| ![IconGridView](dist/icons/IconGridView.svg) | `IconGridView` |
 | ![IconHeading](dist/icons/IconHeading.svg) | `IconHeading` |
 | ![IconHeart](dist/icons/IconHeart.svg) | `IconHeart` |
 | ![IconHidden](dist/icons/IconHidden.svg) | `IconHidden` |
+| ![IconHome](dist/icons/IconHome.svg) | `IconHome` |
 | ![IconHtml](dist/icons/IconHtml.svg) | `IconHtml` |
 | ![IconInstagram](dist/icons/IconInstagram.svg) | `IconInstagram` |
 | ![IconItalic](dist/icons/IconItalic.svg) | `IconItalic` |
@@ -85,6 +88,8 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconListNumbered](dist/icons/IconListNumbered.svg) | `IconListNumbered` |
 | ![IconLoader](dist/icons/IconLoader.svg) | `IconLoader` |
 | ![IconLock](dist/icons/IconLock.svg) | `IconLock` |
+| ![IconLogIn](dist/icons/IconLogIn.svg) | `IconLogIn` |
+| ![IconLogOut](dist/icons/IconLogOut.svg) | `IconLogOut` |
 | ![IconMarker](dist/icons/IconMarker.svg) | `IconMarker` |
 | ![IconMenuSmall](dist/icons/IconMenuSmall.svg) | `IconMenuSmall` |
 | ![IconMenu](dist/icons/IconMenu.svg) | `IconMenu` |
@@ -100,6 +105,8 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconReplace](dist/icons/IconReplace.svg) | `IconReplace` |
 | ![IconSave](dist/icons/IconSave.svg) | `IconSave` |
 | ![IconSearch](dist/icons/IconSearch.svg) | `IconSearch` |
+| ![IconSettings](dist/icons/IconSettings.svg) | `IconSettings` |
+| ![IconSidebar](dist/icons/IconSidebar.svg) | `IconSidebar` |
 | ![IconStar](dist/icons/IconStar.svg) | `IconStar` |
 | ![IconStretch](dist/icons/IconStretch.svg) | `IconStretch` |
 | ![IconStrikethrough](dist/icons/IconStrikethrough.svg) | `IconStrikethrough` |
