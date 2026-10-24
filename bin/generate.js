@@ -83,8 +83,12 @@ class IconsGenerator {
   getSvgFiles() {
     console.log('🔎 Getting SVG files');
 
+    /**
+     * Sort explicitly so the output order does not depend on the file system
+     */
     this.files = fs.readdirSync(this.INPUT_ICONS_DIR)
-      .filter(file => file.endsWith('.svg'));
+      .filter(file => file.endsWith('.svg'))
+      .sort();
   }
 
   /**
@@ -220,7 +224,8 @@ class IconsGenerator {
    * @param {string} name - name of the icon
    */
   pushIconToTable({ name }) {
-    const pathToIcon = path.relative(path.dirname(this.README_FILE), path.join(this.OUTPUT_ICONS_DIR, `${name}.svg`));
+    const pathToIcon = path.relative(path.dirname(this.README_FILE), path.join(this.OUTPUT_ICONS_DIR, `${name}.svg`))
+      .split(path.sep).join('/');
 
     this.TABLE_OF_ICONS.push(`| ![${name}](${pathToIcon}) | \`${name}\` |`);
   }
