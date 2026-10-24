@@ -4,7 +4,7 @@ Dozens of cute icons made with love by CodeX for your projects.
 
 No dependencies required. Free to use and share.
 
-<img width="1657" alt="image" src="https://user-images.githubusercontent.com/3684889/210104174-93ee88d6-a2ba-44a8-ac22-ee04955c771b.png">
+![CodeX Icons showcase](showcase.png)
 
 
 ## Usage
