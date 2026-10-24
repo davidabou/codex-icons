@@ -69,6 +69,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconDotCircle](dist/icons/IconDotCircle.svg) | `IconDotCircle` |
 | ![IconEtcHorisontal](dist/icons/IconEtcHorisontal.svg) | `IconEtcHorisontal` |
 | ![IconEtcVertical](dist/icons/IconEtcVertical.svg) | `IconEtcVertical` |
+| ![IconEye](dist/icons/IconEye.svg) | `IconEye` |
 | ![IconFile](dist/icons/IconFile.svg) | `IconFile` |
 | ![IconGift](dist/icons/IconGift.svg) | `IconGift` |
 | ![IconGlobe](dist/icons/IconGlobe.svg) | `IconGlobe` |
@@ -83,9 +84,12 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconListBulleted](dist/icons/IconListBulleted.svg) | `IconListBulleted` |
 | ![IconListNumbered](dist/icons/IconListNumbered.svg) | `IconListNumbered` |
 | ![IconLoader](dist/icons/IconLoader.svg) | `IconLoader` |
+| ![IconLock](dist/icons/IconLock.svg) | `IconLock` |
 | ![IconMarker](dist/icons/IconMarker.svg) | `IconMarker` |
 | ![IconMenuSmall](dist/icons/IconMenuSmall.svg) | `IconMenuSmall` |
 | ![IconMenu](dist/icons/IconMenu.svg) | `IconMenu` |
+| ![IconMinus](dist/icons/IconMinus.svg) | `IconMinus` |
+| ![IconPause](dist/icons/IconPause.svg) | `IconPause` |
 | ![IconPicture](dist/icons/IconPicture.svg) | `IconPicture` |
 | ![IconPlay](dist/icons/IconPlay.svg) | `IconPlay` |
 | ![IconPlus](dist/icons/IconPlus.svg) | `IconPlus` |
@@ -109,6 +113,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconUnderline](dist/icons/IconUnderline.svg) | `IconUnderline` |
 | ![IconUndo](dist/icons/IconUndo.svg) | `IconUndo` |
 | ![IconUnlink](dist/icons/IconUnlink.svg) | `IconUnlink` |
+| ![IconUnlock](dist/icons/IconUnlock.svg) | `IconUnlock` |
 | ![IconUser](dist/icons/IconUser.svg) | `IconUser` |
 | ![IconUsersGroup](dist/icons/IconUsersGroup.svg) | `IconUsersGroup` |
 | ![IconWarning](dist/icons/IconWarning.svg) | `IconWarning` |
