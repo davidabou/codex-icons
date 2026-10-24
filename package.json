@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "yarn generate && vite build",
+    "build": "bun run generate && vite build",
     "generate": "node bin/generate.js"
   },
   "repository": {

@@ -4,5 +4,5 @@ bin/
 dist/icons/
 src/
 .gitignore
-yarn.lock
+bun.lock
 vite.config.js
