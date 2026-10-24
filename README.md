@@ -12,9 +12,9 @@ No dependencies required. Free to use and share.
 Install the package with node package manager.
 
 ```sh
-npm install @codexteam/icons
+bun add @codexteam/icons
 
-yarn add @codexteam/icons
+npm install @codexteam/icons
 ```
 
 And import required icons.
@@ -117,4 +117,3 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 
 - Request an icon you need via [an Issue](https://github.com/codex-team/icons/issues/new)
 - Or add your icon and open a PR
-
