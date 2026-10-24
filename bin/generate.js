@@ -265,14 +265,22 @@ class IconsGenerator {
     /**
      * Get and read README.md file
      */
-    const readme = fs.readFileSync('./README.md', 'utf8');
-    const readmeLines = readme.split('\n');
+    const readme = fs.readFileSync(this.README_FILE, 'utf8');
+
+    /**
+     * Split on CRLF too, so markers are found when the file has Windows line endings
+     */
+    const readmeLines = readme.split(/\r?\n/);
 
     /**
      * Find start and end lines with the table of icons
      */
     const sectionStart = readmeLines.indexOf('<!-- BEGIN TABLE_OF_ICONS -->');
     const sectionEnd = readmeLines.indexOf('<!-- END TABLE_OF_ICONS -->');
+
+    if (sectionStart === -1 || sectionEnd === -1) {
+      throw new Error('TABLE_OF_ICONS markers were not found in README.md');
+    }
 
     /**
      * Insert new table of icons
