@@ -63,6 +63,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconClock](dist/icons/IconClock.svg) | `IconClock` |
 | ![IconCollapse](dist/icons/IconCollapse.svg) | `IconCollapse` |
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
+| ![IconCopyCheck](dist/icons/IconCopyCheck.svg) | `IconCopyCheck` |
 | ![IconCopy](dist/icons/IconCopy.svg) | `IconCopy` |
 | ![IconCross](dist/icons/IconCross.svg) | `IconCross` |
 | ![IconCurlyBrackets](dist/icons/IconCurlyBrackets.svg) | `IconCurlyBrackets` |
@@ -74,6 +75,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconDirectionUpRight](dist/icons/IconDirectionUpRight.svg) | `IconDirectionUpRight` |
 | ![IconDotCircle](dist/icons/IconDotCircle.svg) | `IconDotCircle` |
 | ![IconDownload](dist/icons/IconDownload.svg) | `IconDownload` |
+| ![IconDrag](dist/icons/IconDrag.svg) | `IconDrag` |
 | ![IconError](dist/icons/IconError.svg) | `IconError` |
 | ![IconEtcHorisontal](dist/icons/IconEtcHorisontal.svg) | `IconEtcHorisontal` |
 | ![IconEtcVertical](dist/icons/IconEtcVertical.svg) | `IconEtcVertical` |
@@ -81,9 +83,12 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconEye](dist/icons/IconEye.svg) | `IconEye` |
 | ![IconFile](dist/icons/IconFile.svg) | `IconFile` |
 | ![IconFilter](dist/icons/IconFilter.svg) | `IconFilter` |
+| ![IconFolderOpen](dist/icons/IconFolderOpen.svg) | `IconFolderOpen` |
+| ![IconFolder](dist/icons/IconFolder.svg) | `IconFolder` |
 | ![IconGift](dist/icons/IconGift.svg) | `IconGift` |
 | ![IconGlobe](dist/icons/IconGlobe.svg) | `IconGlobe` |
 | ![IconGridView](dist/icons/IconGridView.svg) | `IconGridView` |
+| ![IconHash](dist/icons/IconHash.svg) | `IconHash` |
 | ![IconHeading](dist/icons/IconHeading.svg) | `IconHeading` |
 | ![IconHeart](dist/icons/IconHeart.svg) | `IconHeart` |
 | ![IconHidden](dist/icons/IconHidden.svg) | `IconHidden` |
