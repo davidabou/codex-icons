@@ -1,8 +1,10 @@
-# CodeX Icons
+# CodeX Icons (extended)
 
-Dozens of cute icons made with love by CodeX for your projects.
+An extended fork of [CodeX Icons](https://github.com/codex-team/icons): the original set plus new icons drawn in the same style.
 
-No dependencies required. Free to use and share.
+No dependencies required. Free to use and share (MIT).
+
+> This is an independent fork, not affiliated with or endorsed by CodeX. Original icons © 2022 CodeX, additions © 2026 davidabou, all under the [MIT license](LICENSE).
 
 ![CodeX Icons showcase](showcase.png)
 
@@ -12,15 +14,15 @@ No dependencies required. Free to use and share.
 Install the package with node package manager.
 
 ```sh
-bun add @codexteam/icons
+bun add @davidabou/icons
 
-npm install @codexteam/icons
+npm install @davidabou/icons
 ```
 
 And import required icons.
 
 ```js
-import { IconH1 } from '@codexteam/icons';
+import { IconH1 } from '@davidabou/icons';
 
 console.log(IconH1);
 ```
@@ -137,5 +139,5 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 
 ## How to add an icon
 
-- Request an icon you need via [an Issue](https://github.com/codex-team/icons/issues/new)
+- Request an icon you need via [an Issue](https://github.com/davidabou/codex-icons/issues/new)
 - Or add your icon and open a PR

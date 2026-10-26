@@ -1,8 +1,8 @@
 # CodeX Icons Nuxt module
 
-This modules simplifies using of CodeX Icons pack in the Nuxt projects.
+This module simplifies using the [`@davidabou/icons`](https://github.com/davidabou/codex-icons) pack (an extended fork of CodeX Icons) in Nuxt projects.
 
-[![codex-icons-nuxt](./../../showcase.png "CodeX Icons showcase")](https://github.com/codex-team/icons/tree/master/packages/nuxt)
+[![codex-icons-nuxt](./../../showcase.png "CodeX Icons showcase")](https://github.com/davidabou/codex-icons/tree/master/packages/nuxt)
 
 ## Features
 
@@ -15,7 +15,7 @@ This modules simplifies using of CodeX Icons pack in the Nuxt projects.
 1. Get the package
 
 ```bash
-bun add @codexteam/nuxt-icons
+bun add @davidabou/nuxt-icons
 ```
 
 2. Add module to the `nuxt.config.ts`
@@ -23,14 +23,14 @@ bun add @codexteam/nuxt-icons
 ```js
 export default defineNuxtConfig({
   modules: [
-    '@codexteam/nuxt-icons'
+    '@davidabou/nuxt-icons'
   ]
 })
 ```
 
 ## Usage
 
-Use the `codex-icon` component with the `name` property which should be one of the [list](https://github.com/codex-team/icons#list-of-icons).
+Use the `codex-icon` component with the `name` property which should be one of the [list](https://github.com/davidabou/codex-icons#list-of-icons).
 
 ```vue
 <codex-icon name="IconHeart" />
@@ -42,17 +42,10 @@ There are few properties available for component:
 
 | prop | type | description |
 | -- | -- | -- |
-| `name` | string | Required. Name of icon from CodeX Icons pack |
+| `name` | string | Required. Name of icon from the `@davidabou/icons` pack |
 | `class` | string | Class name to be added to the icon wrapper |
 | `size` | number | Icon width and height value |
 
-# About CodeX
+## Credits
 
-<img align="right" width="120" height="120" src="https://codex.so/public/app/img/codex-logo.svg" hspace="50">
-
-CodeX is a team of digital specialists around the world interested in building high-quality open source products on a global market. We are [open](https://codex.so/join) for young people who want to constantly improve their skills and grow professionally with experiments in cutting-edge technologies.
-
-| 🌐 | Join  👋  | Twitter | Instagram |
-| -- | -- | -- | -- |
-| [codex.so](https://codex.so) | [codex.so/join](https://codex.so/join) |[@codex_team](http://twitter.com/codex_team) | [@codex_team](http://instagram.com/codex_team/) |
-
+Based on [`@codexteam/nuxt-icons`](https://github.com/codex-team/icons/tree/master/packages/nuxt) by [CodeX](https://codex.so), released under the MIT license. This fork is not affiliated with or endorsed by CodeX.

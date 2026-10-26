@@ -1,14 +1,14 @@
 {
-  "name": "@codexteam/nuxt-icons",
+  "name": "@davidabou/nuxt-icons",
   "version": "0.0.4",
-  "description": "Use CodeX Icons in your Nuxt project",
+  "description": "Use the extended CodeX Icons fork in your Nuxt project",
   "main": "src/index.ts",
   "types": "src/types/index.ts",
-  "repository": "https://github.com/codex-team/icons/tree/master/packages/nuxt",
-  "author": "CodeX",
+  "repository": "https://github.com/davidabou/codex-icons/tree/master/packages/nuxt",
+  "author": "davidabou",
   "license": "MIT",
   "dependencies": {
-    "@codexteam/icons": "^0.0.9-rc.0",
+    "@davidabou/icons": "^0.3.3",
     "@nuxt/kit": "^3.0.0"
   },
   "peerDependencies": {

@@ -1,6 +1,6 @@
 name: Publish package to NPM
 
-# Disabled on this fork: it would publish @codexteam/icons, which we do not own.
+# Manual trigger only on this fork (publishes @davidabou/icons).
 # Manual trigger only; restore the push trigger to re-enable automatic publishing.
 on:
   workflow_dispatch:

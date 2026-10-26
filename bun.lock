@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "@codexteam/icons",
+      "name": "@davidabou/icons",
       "devDependencies": {
         "@resvg/resvg-js": "^2.6.2",
         "svgo": "^2.8.0",

@@ -1,5 +1,5 @@
 {
-  "name": "@codexteam/icons",
+  "name": "@davidabou/icons",
   "version": "0.3.3",
   "main": "dist/index.umd.js",
   "module": "dist/index.mjs",
@@ -12,13 +12,17 @@
     }
   },
   "license": "MIT",
+  "author": "davidabou",
   "scripts": {
     "build": "bun run generate && vite build",
     "generate": "node bin/generate.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codex-team/icon-pack.git"
+    "url": "git+https://github.com/davidabou/codex-icons.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",

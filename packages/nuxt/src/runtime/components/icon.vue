@@ -13,14 +13,14 @@ import { CodexIconName } from '../../types';
 /**
  * Map with all icons
  */
-import * as icons from '@codexteam/icons';
+import * as icons from '@davidabou/icons';
 
 /**
  * Components properties
  */
 const props = withDefaults(defineProps<{
   /**
-   * Icon name, should be one of the names listed on https://github.com/codex-team/icons
+   * Icon name, should be one of the names listed on https://github.com/davidabou/codex-icons
    */
   name: CodexIconName,
 
@@ -45,7 +45,7 @@ const icon = ref<string>('')
 let iconList: Record<CodexIconName, string>;
 
 /**
- * Workaround SSR problem when "import * as icons from '@codexteam/icons'" wraps with { default: ... }
+ * Workaround SSR problem when "import * as icons from '@davidabou/icons'" wraps with { default: ... }
  */
 if ('default' in icons){
   iconList = (icons as unknown as {default: Record<CodexIconName, string>}).default;
