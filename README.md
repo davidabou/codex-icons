@@ -89,6 +89,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconInfo](dist/icons/IconInfo.svg) | `IconInfo` |
 | ![IconInstagram](dist/icons/IconInstagram.svg) | `IconInstagram` |
 | ![IconItalic](dist/icons/IconItalic.svg) | `IconItalic` |
+| ![IconLightbulb](dist/icons/IconLightbulb.svg) | `IconLightbulb` |
 | ![IconLink](dist/icons/IconLink.svg) | `IconLink` |
 | ![IconLinkedin](dist/icons/IconLinkedin.svg) | `IconLinkedin` |
 | ![IconListBulleted](dist/icons/IconListBulleted.svg) | `IconListBulleted` |
@@ -122,6 +123,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconSidebar](dist/icons/IconSidebar.svg) | `IconSidebar` |
 | ![IconSort](dist/icons/IconSort.svg) | `IconSort` |
 | ![IconStar](dist/icons/IconStar.svg) | `IconStar` |
+| ![IconStop](dist/icons/IconStop.svg) | `IconStop` |
 | ![IconStretch](dist/icons/IconStretch.svg) | `IconStretch` |
 | ![IconStrikethrough](dist/icons/IconStrikethrough.svg) | `IconStrikethrough` |
 | ![IconSun](dist/icons/IconSun.svg) | `IconSun` |
