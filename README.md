@@ -64,6 +64,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconCross](dist/icons/IconCross.svg) | `IconCross` |
 | ![IconCurlyBrackets](dist/icons/IconCurlyBrackets.svg) | `IconCurlyBrackets` |
 | ![IconDelimiter](dist/icons/IconDelimiter.svg) | `IconDelimiter` |
+| ![IconDesktop](dist/icons/IconDesktop.svg) | `IconDesktop` |
 | ![IconDirectionDownRight](dist/icons/IconDirectionDownRight.svg) | `IconDirectionDownRight` |
 | ![IconDirectionLeftDown](dist/icons/IconDirectionLeftDown.svg) | `IconDirectionLeftDown` |
 | ![IconDirectionRightDown](dist/icons/IconDirectionRightDown.svg) | `IconDirectionRightDown` |
@@ -102,6 +103,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconMenu](dist/icons/IconMenu.svg) | `IconMenu` |
 | ![IconMinimize](dist/icons/IconMinimize.svg) | `IconMinimize` |
 | ![IconMinus](dist/icons/IconMinus.svg) | `IconMinus` |
+| ![IconMoon](dist/icons/IconMoon.svg) | `IconMoon` |
 | ![IconPause](dist/icons/IconPause.svg) | `IconPause` |
 | ![IconPicture](dist/icons/IconPicture.svg) | `IconPicture` |
 | ![IconPlay](dist/icons/IconPlay.svg) | `IconPlay` |
@@ -122,6 +124,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconStar](dist/icons/IconStar.svg) | `IconStar` |
 | ![IconStretch](dist/icons/IconStretch.svg) | `IconStretch` |
 | ![IconStrikethrough](dist/icons/IconStrikethrough.svg) | `IconStrikethrough` |
+| ![IconSun](dist/icons/IconSun.svg) | `IconSun` |
 | ![IconTableWithHeadings](dist/icons/IconTableWithHeadings.svg) | `IconTableWithHeadings` |
 | ![IconTableWithoutHeadings](dist/icons/IconTableWithoutHeadings.svg) | `IconTableWithoutHeadings` |
 | ![IconTable](dist/icons/IconTable.svg) | `IconTable` |
