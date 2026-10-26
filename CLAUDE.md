@@ -49,7 +49,7 @@ Values measured on the existing icons (`check`, `plus`, `search`, `picture`, `wa
 - `stroke-width="2"` — **standard weight, non-negotiable**.
 - `stroke-linecap="round"` on every open stroke (lines, unclosed paths).
 - `stroke-linejoin="round"` whenever a path has corners.
-- **No fills**: 100% outline style. Solid dots are drawn with a near-zero-length stroke (see below).
+- **No fills**: 100% outline style. Solid dots are drawn with a near-zero-length stroke (see below). Only exception: the media controls (see below).
 
 ### Recurring shapes
 
@@ -62,6 +62,10 @@ Values measured on the existing icons (`check`, `plus`, `search`, `picture`, `wa
 - **Small accent dot** (sun in `picture`, dot in `warning`): near-zero-length path with `stroke-width="2"`.
 - **Text lines** (`align-*`, `list-*`): horizontal lines spaced 5px apart (y = 7, 12, 17), from x=5 to x=17/19.
 - **Curves**: prefer soft curves and rounded ends; no harsh sharp angles.
+
+### Media controls (filled exception)
+
+`play`, `pause` and `stop` are **solid shapes without a container**, by convention for player controls. Each shape uses `fill="black"` **plus** a matching `stroke="black" stroke-width="2" stroke-linejoin="round"`, which rounds its corners; svgo turns both into `currentColor`. All three share the same visible height (6→18). Do not extend this filled style to other icons.
 
 ### Forbidden
 
