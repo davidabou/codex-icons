@@ -47,6 +47,10 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconAlignJustify](dist/icons/IconAlignJustify.svg) | `IconAlignJustify` |
 | ![IconAlignLeft](dist/icons/IconAlignLeft.svg) | `IconAlignLeft` |
 | ![IconAlignRight](dist/icons/IconAlignRight.svg) | `IconAlignRight` |
+| ![IconArrowDown](dist/icons/IconArrowDown.svg) | `IconArrowDown` |
+| ![IconArrowLeft](dist/icons/IconArrowLeft.svg) | `IconArrowLeft` |
+| ![IconArrowRight](dist/icons/IconArrowRight.svg) | `IconArrowRight` |
+| ![IconArrowUp](dist/icons/IconArrowUp.svg) | `IconArrowUp` |
 | ![IconBell](dist/icons/IconBell.svg) | `IconBell` |
 | ![IconBold](dist/icons/IconBold.svg) | `IconBold` |
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
