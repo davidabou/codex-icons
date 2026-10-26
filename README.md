@@ -70,6 +70,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconDirectionUpRight](dist/icons/IconDirectionUpRight.svg) | `IconDirectionUpRight` |
 | ![IconDotCircle](dist/icons/IconDotCircle.svg) | `IconDotCircle` |
 | ![IconDownload](dist/icons/IconDownload.svg) | `IconDownload` |
+| ![IconError](dist/icons/IconError.svg) | `IconError` |
 | ![IconEtcHorisontal](dist/icons/IconEtcHorisontal.svg) | `IconEtcHorisontal` |
 | ![IconEtcVertical](dist/icons/IconEtcVertical.svg) | `IconEtcVertical` |
 | ![IconExternalLink](dist/icons/IconExternalLink.svg) | `IconExternalLink` |
@@ -84,6 +85,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconHidden](dist/icons/IconHidden.svg) | `IconHidden` |
 | ![IconHome](dist/icons/IconHome.svg) | `IconHome` |
 | ![IconHtml](dist/icons/IconHtml.svg) | `IconHtml` |
+| ![IconInfo](dist/icons/IconInfo.svg) | `IconInfo` |
 | ![IconInstagram](dist/icons/IconInstagram.svg) | `IconInstagram` |
 | ![IconItalic](dist/icons/IconItalic.svg) | `IconItalic` |
 | ![IconLink](dist/icons/IconLink.svg) | `IconLink` |
