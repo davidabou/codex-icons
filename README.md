@@ -53,6 +53,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconArrowUp](dist/icons/IconArrowUp.svg) | `IconArrowUp` |
 | ![IconBell](dist/icons/IconBell.svg) | `IconBell` |
 | ![IconBold](dist/icons/IconBold.svg) | `IconBold` |
+| ![IconBolt](dist/icons/IconBolt.svg) | `IconBolt` |
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
@@ -91,6 +92,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconExternalLink](dist/icons/IconExternalLink.svg) | `IconExternalLink` |
 | ![IconEye](dist/icons/IconEye.svg) | `IconEye` |
 | ![IconFile](dist/icons/IconFile.svg) | `IconFile` |
+| ![IconFilm](dist/icons/IconFilm.svg) | `IconFilm` |
 | ![IconFilter](dist/icons/IconFilter.svg) | `IconFilter` |
 | ![IconFolderOpen](dist/icons/IconFolderOpen.svg) | `IconFolderOpen` |
 | ![IconFolder](dist/icons/IconFolder.svg) | `IconFolder` |
@@ -121,6 +123,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconMaximize](dist/icons/IconMaximize.svg) | `IconMaximize` |
 | ![IconMenuSmall](dist/icons/IconMenuSmall.svg) | `IconMenuSmall` |
 | ![IconMenu](dist/icons/IconMenu.svg) | `IconMenu` |
+| ![IconMicrophone](dist/icons/IconMicrophone.svg) | `IconMicrophone` |
 | ![IconMinimize](dist/icons/IconMinimize.svg) | `IconMinimize` |
 | ![IconMinus](dist/icons/IconMinus.svg) | `IconMinus` |
 | ![IconMoon](dist/icons/IconMoon.svg) | `IconMoon` |
@@ -163,6 +166,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconUpload](dist/icons/IconUpload.svg) | `IconUpload` |
 | ![IconUser](dist/icons/IconUser.svg) | `IconUser` |
 | ![IconUsersGroup](dist/icons/IconUsersGroup.svg) | `IconUsersGroup` |
+| ![IconVideo](dist/icons/IconVideo.svg) | `IconVideo` |
 | ![IconVolume](dist/icons/IconVolume.svg) | `IconVolume` |
 | ![IconWarning](dist/icons/IconWarning.svg) | `IconWarning` |
 <!-- END TABLE_OF_ICONS -->
