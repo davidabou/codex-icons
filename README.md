@@ -57,6 +57,8 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
 | ![IconCalendar](dist/icons/IconCalendar.svg) | `IconCalendar` |
+| ![IconCart](dist/icons/IconCart.svg) | `IconCart` |
+| ![IconChat](dist/icons/IconChat.svg) | `IconChat` |
 | ![IconCheck](dist/icons/IconCheck.svg) | `IconCheck` |
 | ![IconChecklist](dist/icons/IconChecklist.svg) | `IconChecklist` |
 | ![IconChevronDown](dist/icons/IconChevronDown.svg) | `IconChevronDown` |
@@ -69,14 +71,17 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
 | ![IconCopyCheck](dist/icons/IconCopyCheck.svg) | `IconCopyCheck` |
 | ![IconCopy](dist/icons/IconCopy.svg) | `IconCopy` |
+| ![IconCreditCard](dist/icons/IconCreditCard.svg) | `IconCreditCard` |
 | ![IconCross](dist/icons/IconCross.svg) | `IconCross` |
 | ![IconCurlyBrackets](dist/icons/IconCurlyBrackets.svg) | `IconCurlyBrackets` |
+| ![IconDatabase](dist/icons/IconDatabase.svg) | `IconDatabase` |
 | ![IconDelimiter](dist/icons/IconDelimiter.svg) | `IconDelimiter` |
 | ![IconDesktop](dist/icons/IconDesktop.svg) | `IconDesktop` |
 | ![IconDirectionDownRight](dist/icons/IconDirectionDownRight.svg) | `IconDirectionDownRight` |
 | ![IconDirectionLeftDown](dist/icons/IconDirectionLeftDown.svg) | `IconDirectionLeftDown` |
 | ![IconDirectionRightDown](dist/icons/IconDirectionRightDown.svg) | `IconDirectionRightDown` |
 | ![IconDirectionUpRight](dist/icons/IconDirectionUpRight.svg) | `IconDirectionUpRight` |
+| ![IconDocument](dist/icons/IconDocument.svg) | `IconDocument` |
 | ![IconDotCircle](dist/icons/IconDotCircle.svg) | `IconDotCircle` |
 | ![IconDownload](dist/icons/IconDownload.svg) | `IconDownload` |
 | ![IconDrag](dist/icons/IconDrag.svg) | `IconDrag` |
@@ -107,9 +112,11 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconListBulleted](dist/icons/IconListBulleted.svg) | `IconListBulleted` |
 | ![IconListNumbered](dist/icons/IconListNumbered.svg) | `IconListNumbered` |
 | ![IconLoader](dist/icons/IconLoader.svg) | `IconLoader` |
+| ![IconLocation](dist/icons/IconLocation.svg) | `IconLocation` |
 | ![IconLock](dist/icons/IconLock.svg) | `IconLock` |
 | ![IconLogIn](dist/icons/IconLogIn.svg) | `IconLogIn` |
 | ![IconLogOut](dist/icons/IconLogOut.svg) | `IconLogOut` |
+| ![IconMail](dist/icons/IconMail.svg) | `IconMail` |
 | ![IconMarker](dist/icons/IconMarker.svg) | `IconMarker` |
 | ![IconMaximize](dist/icons/IconMaximize.svg) | `IconMaximize` |
 | ![IconMenuSmall](dist/icons/IconMenuSmall.svg) | `IconMenuSmall` |
@@ -117,7 +124,9 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconMinimize](dist/icons/IconMinimize.svg) | `IconMinimize` |
 | ![IconMinus](dist/icons/IconMinus.svg) | `IconMinus` |
 | ![IconMoon](dist/icons/IconMoon.svg) | `IconMoon` |
+| ![IconMute](dist/icons/IconMute.svg) | `IconMute` |
 | ![IconPause](dist/icons/IconPause.svg) | `IconPause` |
+| ![IconPhone](dist/icons/IconPhone.svg) | `IconPhone` |
 | ![IconPicture](dist/icons/IconPicture.svg) | `IconPicture` |
 | ![IconPlay](dist/icons/IconPlay.svg) | `IconPlay` |
 | ![IconPlus](dist/icons/IconPlus.svg) | `IconPlus` |
@@ -142,6 +151,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconTableWithHeadings](dist/icons/IconTableWithHeadings.svg) | `IconTableWithHeadings` |
 | ![IconTableWithoutHeadings](dist/icons/IconTableWithoutHeadings.svg) | `IconTableWithoutHeadings` |
 | ![IconTable](dist/icons/IconTable.svg) | `IconTable` |
+| ![IconTag](dist/icons/IconTag.svg) | `IconTag` |
 | ![IconText](dist/icons/IconText.svg) | `IconText` |
 | ![IconTranslate](dist/icons/IconTranslate.svg) | `IconTranslate` |
 | ![IconTrash](dist/icons/IconTrash.svg) | `IconTrash` |
@@ -153,6 +163,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconUpload](dist/icons/IconUpload.svg) | `IconUpload` |
 | ![IconUser](dist/icons/IconUser.svg) | `IconUser` |
 | ![IconUsersGroup](dist/icons/IconUsersGroup.svg) | `IconUsersGroup` |
+| ![IconVolume](dist/icons/IconVolume.svg) | `IconVolume` |
 | ![IconWarning](dist/icons/IconWarning.svg) | `IconWarning` |
 <!-- END TABLE_OF_ICONS -->
 
