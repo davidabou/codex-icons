@@ -47,10 +47,12 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconAlignJustify](dist/icons/IconAlignJustify.svg) | `IconAlignJustify` |
 | ![IconAlignLeft](dist/icons/IconAlignLeft.svg) | `IconAlignLeft` |
 | ![IconAlignRight](dist/icons/IconAlignRight.svg) | `IconAlignRight` |
+| ![IconBell](dist/icons/IconBell.svg) | `IconBell` |
 | ![IconBold](dist/icons/IconBold.svg) | `IconBold` |
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
+| ![IconCalendar](dist/icons/IconCalendar.svg) | `IconCalendar` |
 | ![IconCheck](dist/icons/IconCheck.svg) | `IconCheck` |
 | ![IconChecklist](dist/icons/IconChecklist.svg) | `IconChecklist` |
 | ![IconChevronDown](dist/icons/IconChevronDown.svg) | `IconChevronDown` |
@@ -58,6 +60,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconChevronRight](dist/icons/IconChevronRight.svg) | `IconChevronRight` |
 | ![IconChevronUp](dist/icons/IconChevronUp.svg) | `IconChevronUp` |
 | ![IconClipboard](dist/icons/IconClipboard.svg) | `IconClipboard` |
+| ![IconClock](dist/icons/IconClock.svg) | `IconClock` |
 | ![IconCollapse](dist/icons/IconCollapse.svg) | `IconCollapse` |
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
 | ![IconCopy](dist/icons/IconCopy.svg) | `IconCopy` |
