@@ -130,6 +130,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconMicrophone](dist/icons/IconMicrophone.svg) | `IconMicrophone` |
 | ![IconMinimize](dist/icons/IconMinimize.svg) | `IconMinimize` |
 | ![IconMinus](dist/icons/IconMinus.svg) | `IconMinus` |
+| ![IconMoney](dist/icons/IconMoney.svg) | `IconMoney` |
 | ![IconMoon](dist/icons/IconMoon.svg) | `IconMoon` |
 | ![IconMute](dist/icons/IconMute.svg) | `IconMute` |
 | ![IconPause](dist/icons/IconPause.svg) | `IconPause` |

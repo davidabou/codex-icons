@@ -93,6 +93,7 @@ export declare const IconMenu: string;
 export declare const IconMicrophone: string;
 export declare const IconMinimize: string;
 export declare const IconMinus: string;
+export declare const IconMoney: string;
 export declare const IconMoon: string;
 export declare const IconMute: string;
 export declare const IconPause: string;
