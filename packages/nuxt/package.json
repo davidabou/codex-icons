@@ -1,7 +1,7 @@
 {
   "name": "@davidabou/nuxt-icons",
   "version": "0.1.1",
-  "description": "Use the extended CodeX Icons fork in your Nuxt project",
+  "description": "150+ rounded outline SVG icons as a typed, server-rendered component.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidabou/icons.git",
