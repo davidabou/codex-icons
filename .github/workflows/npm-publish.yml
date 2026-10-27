@@ -40,4 +40,4 @@ jobs:
             echo "tag=latest" >> "$GITHUB_OUTPUT"
           fi
 
-      - run: npm publish --access public --tag ${{ steps.tag.outputs.tag }}
+      - run: npm --version && npm publish --access public --tag ${{ steps.tag.outputs.tag }} --loglevel verbose
