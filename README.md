@@ -64,6 +64,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconBook](dist/icons/IconBook.svg) | `IconBook` |
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
 | ![IconBorder](dist/icons/IconBorder.svg) | `IconBorder` |
+| ![IconBox](dist/icons/IconBox.svg) | `IconBox` |
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
 | ![IconBrain](dist/icons/IconBrain.svg) | `IconBrain` |

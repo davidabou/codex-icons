@@ -22,6 +22,7 @@ export declare const IconBolt: string;
 export declare const IconBook: string;
 export declare const IconBookmark: string;
 export declare const IconBorder: string;
+export declare const IconBox: string;
 export declare const IconBracketsVertical: string;
 export declare const IconBrackets: string;
 export declare const IconBrain: string;
