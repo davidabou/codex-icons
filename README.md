@@ -57,6 +57,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconBolt](dist/icons/IconBolt.svg) | `IconBolt` |
 | ![IconBook](dist/icons/IconBook.svg) | `IconBook` |
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
+| ![IconBorder](dist/icons/IconBorder.svg) | `IconBorder` |
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
 | ![IconBrain](dist/icons/IconBrain.svg) | `IconBrain` |
@@ -133,7 +134,6 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconLogs](dist/icons/IconLogs.svg) | `IconLogs` |
 | ![IconMail](dist/icons/IconMail.svg) | `IconMail` |
 | ![IconMarker](dist/icons/IconMarker.svg) | `IconMarker` |
-| ![IconMaximize](dist/icons/IconMaximize.svg) | `IconMaximize` |
 | ![IconMenuSmall](dist/icons/IconMenuSmall.svg) | `IconMenuSmall` |
 | ![IconMenu](dist/icons/IconMenu.svg) | `IconMenu` |
 | ![IconMicrophone](dist/icons/IconMicrophone.svg) | `IconMicrophone` |
