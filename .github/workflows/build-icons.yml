@@ -2,20 +2,33 @@ name: Run build
 
 on: [pull_request]
 
+permissions:
+  contents: write
+
 jobs:
   lint:
     name: Build frontend
     runs-on: ubuntu-latest
     steps:
+      # Check out the PR branch itself (not the merge commit) so the build can be pushed back to it
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
       - name: Use Bun
         uses: oven-sh/setup-bun@v2
 
       - name: Install packages and run 'build' command
         run: bun install && bun run build
 
-      - uses: EndBug/add-and-commit@v7
-        with:
-          author_name: github-actions
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: 'Run build'
+      - name: Commit the regenerated build
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Build is already up to date"
+          else
+            git commit -m "Run build"
+            git push
+          fi
