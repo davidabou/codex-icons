@@ -125,6 +125,7 @@ export declare const IconShare: string;
 export declare const IconShield: string;
 export declare const IconSidebar: string;
 export declare const IconSort: string;
+export declare const IconSparkles: string;
 export declare const IconSpeedometer: string;
 export declare const IconStar: string;
 export declare const IconStop: string;
