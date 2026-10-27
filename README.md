@@ -146,6 +146,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconSend](dist/icons/IconSend.svg) | `IconSend` |
 | ![IconSettings](dist/icons/IconSettings.svg) | `IconSettings` |
 | ![IconShare](dist/icons/IconShare.svg) | `IconShare` |
+| ![IconShield](dist/icons/IconShield.svg) | `IconShield` |
 | ![IconSidebar](dist/icons/IconSidebar.svg) | `IconSidebar` |
 | ![IconSort](dist/icons/IconSort.svg) | `IconSort` |
 | ![IconStar](dist/icons/IconStar.svg) | `IconStar` |

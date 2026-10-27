@@ -109,6 +109,7 @@ export declare const IconSearch: string;
 export declare const IconSend: string;
 export declare const IconSettings: string;
 export declare const IconShare: string;
+export declare const IconShield: string;
 export declare const IconSidebar: string;
 export declare const IconSort: string;
 export declare const IconStar: string;
