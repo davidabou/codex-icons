@@ -5,34 +5,71 @@
 [![npm downloads](https://img.shields.io/npm/dm/@davidabou/icons)](https://www.npmjs.com/package/@davidabou/icons)
 [![license](https://img.shields.io/npm/l/@davidabou/icons)](LICENSE)
 
-An extended fork of [CodeX Icons](https://github.com/codex-team/icons): the original set plus new icons drawn in the same style.
-
-No dependencies required. Free to use and share (MIT).
-
-> This is an independent fork, not affiliated with or endorsed by CodeX. Original icons © 2022 CodeX, additions © 2026 davidabou, all under the [MIT license](LICENSE).
+A growing set of small, airy outline icons. It extends [CodeX Icons](https://github.com/codex-team/icons) with new icons drawn to be indistinguishable from the originals, and keeps every original `IconXxx` export, so it works as a drop-in replacement for `@codexteam/icons`.
 
 ![CodeX Icons showcase](showcase.png)
 
+## Features
 
-## Usage
+- **Consistent style**: 24×24 grid, 14×14 live area, 2px rounded strokes, outline only.
+- **Colors with your text**: every icon uses `currentColor`.
+- **Lightweight**: plain SVG strings, no runtime dependencies, tree-shakable ES module.
+- **Typed**: TypeScript declarations are included.
+- **Nuxt ready**: an optional [Nuxt module](packages/nuxt) with an auto-imported `<DaIcon>` component.
 
-Install the package with node package manager.
+## Installation
 
 ```sh
 bun add @davidabou/icons
-
+# or
 npm install @davidabou/icons
 ```
 
-And import required icons.
+## Usage
+
+Each icon is exported as an SVG string, named after its file in `PascalCase` with an `Icon` prefix (`arrow-left.svg` → `IconArrowLeft`).
 
 ```js
-import { IconH1 } from '@davidabou/icons';
+import { IconHeart } from '@davidabou/icons';
 
-console.log(IconH1);
+button.innerHTML = IconHeart; // '<svg xmlns="http://www.w3.org/2000/svg" ...'
 ```
 
-You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
+Icons are 24px by default. Resize them with CSS and color them with `color`:
+
+```css
+.icon svg {
+  width: 20px;
+  height: 20px;
+  color: tomato;
+}
+```
+
+In a framework, render the string as HTML, for example in Vue:
+
+```vue
+<span class="icon" v-html="IconHeart" />
+```
+
+### Nuxt
+
+```sh
+bun add @davidabou/nuxt-icons
+```
+
+```vue
+<DaIcon name="IconHeart" :size="20" />
+```
+
+See the [module documentation](packages/nuxt#readme) for the setup.
+
+### SVG files
+
+Optimized SVG files are available in [`dist/icons`](dist/icons), for design tools or direct use in an `<img>`, for example through jsDelivr:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/davidabou/icons/dist/icons/IconHeart.svg" alt="" width="24" height="24">
+```
 
 ## List of icons
 
@@ -198,7 +235,13 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconWarning](dist/icons/IconWarning.svg) | `IconWarning` |
 <!-- END TABLE_OF_ICONS -->
 
-## How to add an icon
+## Contributing
 
-- Request an icon you need via [an Issue](https://github.com/davidabou/icons/issues/new)
-- Or add your icon and open a PR
+- Request an icon via [an issue](https://github.com/davidabou/icons/issues/new).
+- Or draw it yourself: add an SVG to `src/icons/` following the style guide in [`CLAUDE.md`](CLAUDE.md), run `bun run build`, and open a PR.
+
+## License
+
+[MIT](LICENSE). Original icons © 2022 CodeX, additions © 2026 davidabou.
+
+This is an independent fork, not affiliated with or endorsed by CodeX.
