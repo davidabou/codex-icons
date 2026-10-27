@@ -1,6 +1,6 @@
 {
   "name": "@davidabou/nuxt-icons",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Use the extended CodeX Icons fork in your Nuxt project",
   "main": "src/index.ts",
   "types": "src/types/index.ts",
@@ -8,7 +8,7 @@
   "author": "davidabou",
   "license": "MIT",
   "dependencies": {
-    "@davidabou/icons": "^0.4.0",
+    "@davidabou/icons": "^0.1.0",
     "@nuxt/kit": "^3.0.0"
   },
   "peerDependencies": {
