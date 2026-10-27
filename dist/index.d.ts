@@ -31,6 +31,7 @@ export declare const IconChevronRight: string;
 export declare const IconChevronUp: string;
 export declare const IconClipboard: string;
 export declare const IconClock: string;
+export declare const IconCoffee: string;
 export declare const IconCollapse: string;
 export declare const IconColor: string;
 export declare const IconCopyCheck: string;
