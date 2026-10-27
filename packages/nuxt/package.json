@@ -8,7 +8,7 @@
   "author": "davidabou",
   "license": "MIT",
   "dependencies": {
-    "@davidabou/icons": "^0.3.3",
+    "@davidabou/icons": "^0.4.0",
     "@nuxt/kit": "^3.0.0"
   },
   "peerDependencies": {
