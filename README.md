@@ -59,6 +59,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
+| ![IconBriefcase](dist/icons/IconBriefcase.svg) | `IconBriefcase` |
 | ![IconCalendar](dist/icons/IconCalendar.svg) | `IconCalendar` |
 | ![IconCart](dist/icons/IconCart.svg) | `IconCart` |
 | ![IconChat](dist/icons/IconChat.svg) | `IconChat` |
