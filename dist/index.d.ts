@@ -62,6 +62,7 @@ export declare const IconFilter: string;
 export declare const IconFolderOpen: string;
 export declare const IconFolder: string;
 export declare const IconGift: string;
+export declare const IconGitBranch: string;
 export declare const IconGlobe: string;
 export declare const IconGridView: string;
 export declare const IconHash: string;

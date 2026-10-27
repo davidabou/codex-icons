@@ -99,6 +99,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconFolderOpen](dist/icons/IconFolderOpen.svg) | `IconFolderOpen` |
 | ![IconFolder](dist/icons/IconFolder.svg) | `IconFolder` |
 | ![IconGift](dist/icons/IconGift.svg) | `IconGift` |
+| ![IconGitBranch](dist/icons/IconGitBranch.svg) | `IconGitBranch` |
 | ![IconGlobe](dist/icons/IconGlobe.svg) | `IconGlobe` |
 | ![IconGridView](dist/icons/IconGridView.svg) | `IconGridView` |
 | ![IconHash](dist/icons/IconHash.svg) | `IconHash` |
