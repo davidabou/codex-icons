@@ -92,5 +92,5 @@ Values measured on the existing icons (`check`, `plus`, `search`, `picture`, `wa
 - 2-space indentation, LF, final newline (`.editorconfig`).
 - The project's package manager is **Bun** (CI: `bun install && bun run build`).
 - The generator sorts icons explicitly (code-point order, so `H1`…`H6` come first) and writes POSIX paths in the README, so its output is identical on Windows and Linux. CI regenerates and commits the build on every PR.
-- devDependency versions are pinned by `bun.lock`. `vite-plugin-dts@1.x` breaks with recent `@microsoft/api-extractor` versions: do not regenerate the lockfile from scratch without checking `bun run build`.
+- devDependency versions are pinned by `bun.lock`. Keep TypeScript on the same major version at the root and in `packages/nuxt` (editors pick the root one), and check that `bun run build` still outputs only `dist/index.{mjs,umd.js,d.ts}` after upgrading Vite or `vite-plugin-dts`.
 - Keep upstream compatibility: do not rename/remove existing icons (that would be a breaking change for `IconXxx` imports).
