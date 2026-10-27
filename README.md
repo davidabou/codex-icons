@@ -161,6 +161,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconRefresh](dist/icons/IconRefresh.svg) | `IconRefresh` |
 | ![IconRemoveBackground](dist/icons/IconRemoveBackground.svg) | `IconRemoveBackground` |
 | ![IconReplace](dist/icons/IconReplace.svg) | `IconReplace` |
+| ![IconRocket](dist/icons/IconRocket.svg) | `IconRocket` |
 | ![IconSave](dist/icons/IconSave.svg) | `IconSave` |
 | ![IconSearch](dist/icons/IconSearch.svg) | `IconSearch` |
 | ![IconSend](dist/icons/IconSend.svg) | `IconSend` |
