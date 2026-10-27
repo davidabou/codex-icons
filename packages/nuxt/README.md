@@ -1,5 +1,9 @@
 # CodeX Icons Nuxt module
 
+[![npm](https://img.shields.io/npm/v/@davidabou/nuxt-icons)](https://www.npmjs.com/package/@davidabou/nuxt-icons)
+[![npm downloads](https://img.shields.io/npm/dm/@davidabou/nuxt-icons)](https://www.npmjs.com/package/@davidabou/nuxt-icons)
+[![Nuxt](https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt.js)](https://nuxt.com)
+
 This module simplifies using the [`@davidabou/icons`](https://github.com/davidabou/icons) pack (an extended fork of CodeX Icons) in Nuxt projects.
 
 [![nuxt-icons](https://raw.githubusercontent.com/davidabou/icons/master/showcase.png "CodeX Icons showcase")](https://github.com/davidabou/icons/tree/master/packages/nuxt)

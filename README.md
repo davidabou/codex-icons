@@ -1,5 +1,10 @@
 # CodeX Icons (extended)
 
+[![npm](https://img.shields.io/npm/v/@davidabou/icons?label=%40davidabou%2Ficons)](https://www.npmjs.com/package/@davidabou/icons)
+[![npm](https://img.shields.io/npm/v/@davidabou/nuxt-icons?label=%40davidabou%2Fnuxt-icons)](https://www.npmjs.com/package/@davidabou/nuxt-icons)
+[![npm downloads](https://img.shields.io/npm/dm/@davidabou/icons)](https://www.npmjs.com/package/@davidabou/icons)
+[![license](https://img.shields.io/npm/l/@davidabou/icons)](LICENSE)
+
 An extended fork of [CodeX Icons](https://github.com/codex-team/icons): the original set plus new icons drawn in the same style.
 
 No dependencies required. Free to use and share (MIT).
