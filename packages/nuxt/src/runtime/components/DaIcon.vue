@@ -19,7 +19,7 @@ import * as icons from '@davidabou/icons';
  */
 const props = withDefaults(defineProps<{
   /**
-   * Icon name, should be one of the names listed on https://github.com/davidabou/codex-icons
+   * Icon name, should be one of the names listed on https://github.com/davidabou/icons
    */
   name: DaIconName,
 

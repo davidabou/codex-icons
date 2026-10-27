@@ -1,8 +1,8 @@
 # CodeX Icons Nuxt module
 
-This module simplifies using the [`@davidabou/icons`](https://github.com/davidabou/codex-icons) pack (an extended fork of CodeX Icons) in Nuxt projects.
+This module simplifies using the [`@davidabou/icons`](https://github.com/davidabou/icons) pack (an extended fork of CodeX Icons) in Nuxt projects.
 
-[![codex-icons-nuxt](https://raw.githubusercontent.com/davidabou/codex-icons/master/showcase.png "CodeX Icons showcase")](https://github.com/davidabou/codex-icons/tree/master/packages/nuxt)
+[![nuxt-icons](https://raw.githubusercontent.com/davidabou/icons/master/showcase.png "CodeX Icons showcase")](https://github.com/davidabou/icons/tree/master/packages/nuxt)
 
 ## Features
 
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
 
 ## Usage
 
-Use the `DaIcon` component (or `da-icon` in kebab-case) with the `name` property which should be one of the [list](https://github.com/davidabou/codex-icons#list-of-icons).
+Use the `DaIcon` component (or `da-icon` in kebab-case) with the `name` property which should be one of the [list](https://github.com/davidabou/icons#list-of-icons).
 
 ```vue
 <DaIcon name="IconHeart" />

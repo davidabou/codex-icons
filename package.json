@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidabou/codex-icons.git"
+    "url": "git+https://github.com/davidabou/icons.git"
   },
   "publishConfig": {
     "access": "public"

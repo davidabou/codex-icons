@@ -4,7 +4,7 @@
   "description": "Use the extended CodeX Icons fork in your Nuxt project",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidabou/codex-icons.git",
+    "url": "git+https://github.com/davidabou/icons.git",
     "directory": "packages/nuxt"
   },
   "author": "davidabou",
