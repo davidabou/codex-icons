@@ -69,6 +69,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconChevronUp](dist/icons/IconChevronUp.svg) | `IconChevronUp` |
 | ![IconClipboard](dist/icons/IconClipboard.svg) | `IconClipboard` |
 | ![IconClock](dist/icons/IconClock.svg) | `IconClock` |
+| ![IconCloud](dist/icons/IconCloud.svg) | `IconCloud` |
 | ![IconCoffee](dist/icons/IconCoffee.svg) | `IconCoffee` |
 | ![IconCollapse](dist/icons/IconCollapse.svg) | `IconCollapse` |
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
