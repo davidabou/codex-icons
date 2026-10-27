@@ -59,6 +59,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconBookmark](dist/icons/IconBookmark.svg) | `IconBookmark` |
 | ![IconBracketsVertical](dist/icons/IconBracketsVertical.svg) | `IconBracketsVertical` |
 | ![IconBrackets](dist/icons/IconBrackets.svg) | `IconBrackets` |
+| ![IconBrain](dist/icons/IconBrain.svg) | `IconBrain` |
 | ![IconBriefcase](dist/icons/IconBriefcase.svg) | `IconBriefcase` |
 | ![IconCalendar](dist/icons/IconCalendar.svg) | `IconCalendar` |
 | ![IconCart](dist/icons/IconCart.svg) | `IconCart` |
@@ -72,6 +73,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconClipboard](dist/icons/IconClipboard.svg) | `IconClipboard` |
 | ![IconClock](dist/icons/IconClock.svg) | `IconClock` |
 | ![IconCloud](dist/icons/IconCloud.svg) | `IconCloud` |
+| ![IconCode](dist/icons/IconCode.svg) | `IconCode` |
 | ![IconCoffee](dist/icons/IconCoffee.svg) | `IconCoffee` |
 | ![IconCollapse](dist/icons/IconCollapse.svg) | `IconCollapse` |
 | ![IconColor](dist/icons/IconColor.svg) | `IconColor` |
@@ -80,6 +82,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconCreditCard](dist/icons/IconCreditCard.svg) | `IconCreditCard` |
 | ![IconCross](dist/icons/IconCross.svg) | `IconCross` |
 | ![IconCurlyBrackets](dist/icons/IconCurlyBrackets.svg) | `IconCurlyBrackets` |
+| ![IconCursor](dist/icons/IconCursor.svg) | `IconCursor` |
 | ![IconDatabase](dist/icons/IconDatabase.svg) | `IconDatabase` |
 | ![IconDelimiter](dist/icons/IconDelimiter.svg) | `IconDelimiter` |
 | ![IconDesktop](dist/icons/IconDesktop.svg) | `IconDesktop` |
@@ -142,6 +145,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconPhone](dist/icons/IconPhone.svg) | `IconPhone` |
 | ![IconPicture](dist/icons/IconPicture.svg) | `IconPicture` |
 | ![IconPlay](dist/icons/IconPlay.svg) | `IconPlay` |
+| ![IconPlug](dist/icons/IconPlug.svg) | `IconPlug` |
 | ![IconPlus](dist/icons/IconPlus.svg) | `IconPlus` |
 | ![IconQuestion](dist/icons/IconQuestion.svg) | `IconQuestion` |
 | ![IconQuote](dist/icons/IconQuote.svg) | `IconQuote` |
