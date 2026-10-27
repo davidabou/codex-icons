@@ -2,8 +2,8 @@ import { defineNuxtModule, createResolver, addComponent } from '@nuxt/kit';
 
 export default defineNuxtModule({
   meta: {
-    name: 'codex-icons',
-    configKey: 'codexIcons',
+    name: 'da-icons',
+    configKey: 'daIcons',
     compatibility: {
       nuxt: '^3.0.0'
     }
@@ -12,7 +12,7 @@ export default defineNuxtModule({
     const { resolve } = createResolver(import.meta.url);
 
     addComponent({
-      name: 'codex-icon',
+      name: 'da-icon',
       global: true,
       filePath: resolve('./runtime/components/icon.vue')
     });

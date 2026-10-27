@@ -30,10 +30,10 @@ export default defineNuxtConfig({
 
 ## Usage
 
-Use the `codex-icon` component with the `name` property which should be one of the [list](https://github.com/davidabou/codex-icons#list-of-icons).
+Use the `da-icon` component with the `name` property which should be one of the [list](https://github.com/davidabou/codex-icons#list-of-icons).
 
 ```vue
-<codex-icon name="IconHeart" />
+<da-icon name="IconHeart" />
 ```
 
 ## Properties

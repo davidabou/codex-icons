@@ -1,6 +1,6 @@
 <template>
   <span
-    class="cdx-icon"
+    class="da-icon"
     :class="class"
     v-html="icon"
     :style="style"
@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { CodexIconName } from '../../types';
+import { DaIconName } from '../../types';
 /**
  * Map with all icons
  */
@@ -22,7 +22,7 @@ const props = withDefaults(defineProps<{
   /**
    * Icon name, should be one of the names listed on https://github.com/davidabou/codex-icons
    */
-  name: CodexIconName,
+  name: DaIconName,
 
   /**
    * Optional class names
@@ -42,13 +42,13 @@ const props = withDefaults(defineProps<{
  */
 const icon = ref<string>('')
 
-let iconList: Record<CodexIconName, string>;
+let iconList: Record<DaIconName, string>;
 
 /**
  * Workaround SSR problem when "import * as icons from '@davidabou/icons'" wraps with { default: ... }
  */
 if ('default' in icons){
-  iconList = (icons as unknown as {default: Record<CodexIconName, string>}).default;
+  iconList = (icons as unknown as {default: Record<DaIconName, string>}).default;
 } else {
   iconList = icons;
 }
@@ -60,17 +60,17 @@ const style = computed(() => {
   return `--size: ${props.size}px`;
 })
 
-icon.value = iconList[props.name as CodexIconName];
+icon.value = iconList[props.name as DaIconName];
 </script>
 
 <style>
-.cdx-icon {
+.da-icon {
   --size: 24px;
 
   display: inline-flex;
 }
 
-.cdx-icon svg {
+.da-icon svg {
   width: var(--size);
   height: var(--size);
 }

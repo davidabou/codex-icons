@@ -7,7 +7,7 @@ Fork of [`@codexteam/icons`](https://github.com/codex-team/icons). Goal of this 
 - `src/icons/*.svg` — **single source of truth**. This is the only place where icons are added or modified.
 - `bin/generate.js` — optimizes the SVGs (svgo), generates `src/index.ts`, `dist/icons/Icon*.svg`, the icon table in `README.md` and the `showcase.png` preview (all icons as a grid, rendered with `@resvg/resvg-js`).
 - `src/index.ts`, `dist/`, `showcase.png`, the `<!-- BEGIN TABLE_OF_ICONS -->` section of the README — **generated, never edit by hand**.
-- `packages/nuxt/` — Nuxt module (`<codex-icon name="IconHeart" />`), consumes the main package.
+- `packages/nuxt/` — Nuxt module (`<da-icon name="IconHeart" />`), consumes the main package.
 
 ## Commands
 
