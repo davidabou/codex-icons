@@ -2,21 +2,50 @@
   "name": "@davidabou/nuxt-icons",
   "version": "0.1.0",
   "description": "Use the extended CodeX Icons fork in your Nuxt project",
-  "main": "src/index.ts",
-  "types": "src/types/index.ts",
-  "repository": "https://github.com/davidabou/codex-icons/tree/master/packages/nuxt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidabou/codex-icons.git",
+    "directory": "packages/nuxt"
+  },
   "author": "davidabou",
   "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.mts",
+      "import": "./dist/module.mjs"
+    }
+  },
+  "main": "./dist/module.mjs",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/types.d.mts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build prepare && nuxt-module-build build",
+    "dev": "bun run dev:prepare && nuxt dev playground",
+    "dev:build": "nuxt build playground",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxt prepare playground",
+    "test:types": "vue-tsc --noEmit && cd playground && vue-tsc -b --noEmit"
+  },
   "dependencies": {
     "@davidabou/icons": "^0.1.0",
-    "@nuxt/kit": "^3.0.0"
+    "@nuxt/kit": "^4.6.3"
   },
-  "peerDependencies": {
-    "nuxt": "^3.0.0",
-    "vue": "^3.0.0"
+  "devDependencies": {
+    "@nuxt/module-builder": "^1.0.3",
+    "@nuxt/schema": "^4.6.3",
+    "nuxt": "^4.6.3",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.12"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   }
 }

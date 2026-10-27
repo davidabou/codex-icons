@@ -2,13 +2,15 @@
 
 This module simplifies using the [`@davidabou/icons`](https://github.com/davidabou/codex-icons) pack (an extended fork of CodeX Icons) in Nuxt projects.
 
-[![codex-icons-nuxt](./../../showcase.png "CodeX Icons showcase")](https://github.com/davidabou/codex-icons/tree/master/packages/nuxt)
+[![codex-icons-nuxt](https://raw.githubusercontent.com/davidabou/codex-icons/master/showcase.png "CodeX Icons showcase")](https://github.com/davidabou/codex-icons/tree/master/packages/nuxt)
 
 ## Features
 
-1. 💖 Dynamic loading
-2. 💝 Coloring
-3. 💞 HMR (reloading on update in dev mode)
+1. 💖 Auto-imported `<DaIcon>` component, rendered on the server
+2. 💝 Coloring through `currentColor`
+3. 💞 Typed icon names, with autocompletion and type errors on unknown names
+
+Requires Nuxt 4.
 
 ## Installation
 
@@ -20,7 +22,7 @@ bun add @davidabou/nuxt-icons
 
 2. Add module to the `nuxt.config.ts`
 
-```js
+```ts
 export default defineNuxtConfig({
   modules: [
     '@davidabou/nuxt-icons'
@@ -30,21 +32,39 @@ export default defineNuxtConfig({
 
 ## Usage
 
-Use the `da-icon` component with the `name` property which should be one of the [list](https://github.com/davidabou/codex-icons#list-of-icons).
+Use the `DaIcon` component (or `da-icon` in kebab-case) with the `name` property which should be one of the [list](https://github.com/davidabou/codex-icons#list-of-icons).
 
 ```vue
-<da-icon name="IconHeart" />
+<DaIcon name="IconHeart" />
+<da-icon name="IconSparkles" :size="20" class="text-primary" />
+<DaIcon :name="isOpen ? 'IconChevronUp' : 'IconChevronDown'" />
 ```
+
+The icon takes the current text color, so it can be colored with CSS `color` or any utility class.
 
 ## Properties
 
-There are few properties available for component:
-
 | prop | type | description |
 | -- | -- | -- |
-| `name` | string | Required. Name of icon from the `@davidabou/icons` pack |
-| `class` | string | Class name to be added to the icon wrapper |
-| `size` | number | Icon width and height value |
+| `name` | `DaIconName` | Required. Name of icon from the `@davidabou/icons` pack |
+| `size` | number | Icon width and height value, `24` by default |
+
+Any other attribute (`class`, `style`, `aria-label`…) is passed to the icon wrapper.
+
+The `DaIconName` type can be imported to type your own props:
+
+```ts
+import type { DaIconName } from '@davidabou/nuxt-icons'
+```
+
+## Development
+
+```bash
+bun install
+bun run dev          # playground with hot reload
+bun run test:types   # type-check the module and the playground
+bun run prepack      # build the module into dist/
+```
 
 ## Credits
 
