@@ -15,7 +15,8 @@
   "author": "davidabou",
   "scripts": {
     "build": "bun run generate && vite build",
-    "generate": "node bin/generate.js"
+    "generate": "node bin/generate.js",
+    "playground": "cd packages/nuxt && bun install && bun run dev"
   },
   "repository": {
     "type": "git",
