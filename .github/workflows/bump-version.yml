@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checkout to target branch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       # Get package new version name
       - name: Get package info
         id: packageNew
-        uses: codex-team/action-nodejs-package-info@v1
+        run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
       # Checkout to the base commit before merge
       - name: Checkout to the base commit before merge
@@ -28,22 +28,21 @@ jobs:
       # Get package old version name
       - name: Get package info
         id: packageOld
-        uses: codex-team/action-nodejs-package-info@v1
+        run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
       # Stop workflow and do not bump version if it was changed already
       - name: Stop workflow and do not bump version if it was changed already
-        uses: actions/github-script@v3
         if: steps.packageOld.outputs.version != steps.packageNew.outputs.version
-        with:
-          script: |
-            core.setFailed('Version was changed! ${{ steps.packageOld.outputs.version }} -> ${{ steps.packageNew.outputs.version }}')
+        run: |
+          echo "::error::Version was changed! ${{ steps.packageOld.outputs.version }} -> ${{ steps.packageNew.outputs.version }}"
+          exit 1
 
   bump-version:
     needs: check-for-no-version-changing
     runs-on: ubuntu-latest
     steps:
       # Checkout to target branch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       # Setup bun environment
       - uses: oven-sh/setup-bun@v2
@@ -55,7 +54,7 @@ jobs:
       # Get package new version name
       - name: Get package info
         id: package
-        uses: codex-team/action-nodejs-package-info@v1
+        run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
       # Commit and push changes
       - uses: EndBug/add-and-commit@v7

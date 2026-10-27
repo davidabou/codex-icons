@@ -9,10 +9,10 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
       - uses: oven-sh/setup-bun@v2
@@ -25,10 +25,12 @@ jobs:
 
       - name: Get package info
         id: package
-        uses: codex-team/action-nodejs-package-info@v1.1    
+        run: |
+          echo "name=$(node -p "require('./package.json').name")" >> "$GITHUB_OUTPUT"
+          echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
       - name: Add LATEST tag for the published package if this is not a -rc version
-        if: steps.package.outputs.is-release-candidate == 'false'
+        if: ${{ !contains(steps.package.outputs.version, '-rc') }}
         run: npm dist-tag add ${{ steps.package.outputs.name }}@${{ steps.package.outputs.version }} latest
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
