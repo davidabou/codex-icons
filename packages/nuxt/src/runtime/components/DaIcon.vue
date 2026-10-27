@@ -3,7 +3,7 @@
     class="da-icon"
     :style="style"
     v-html="icon"
-  ></span>
+  />
 </template>
 
 <script setup lang="ts">
