@@ -53,6 +53,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconAlignLeft](dist/icons/IconAlignLeft.svg) | `IconAlignLeft` |
 | ![IconAlignRight](dist/icons/IconAlignRight.svg) | `IconAlignRight` |
 | ![IconApplication](dist/icons/IconApplication.svg) | `IconApplication` |
+| ![IconArchive](dist/icons/IconArchive.svg) | `IconArchive` |
 | ![IconArrowDown](dist/icons/IconArrowDown.svg) | `IconArrowDown` |
 | ![IconArrowLeft](dist/icons/IconArrowLeft.svg) | `IconArrowLeft` |
 | ![IconArrowRight](dist/icons/IconArrowRight.svg) | `IconArrowRight` |
