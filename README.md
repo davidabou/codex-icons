@@ -130,6 +130,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconLock](dist/icons/IconLock.svg) | `IconLock` |
 | ![IconLogIn](dist/icons/IconLogIn.svg) | `IconLogIn` |
 | ![IconLogOut](dist/icons/IconLogOut.svg) | `IconLogOut` |
+| ![IconLogs](dist/icons/IconLogs.svg) | `IconLogs` |
 | ![IconMail](dist/icons/IconMail.svg) | `IconMail` |
 | ![IconMarker](dist/icons/IconMarker.svg) | `IconMarker` |
 | ![IconMaximize](dist/icons/IconMaximize.svg) | `IconMaximize` |
@@ -171,6 +172,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconTableWithoutHeadings](dist/icons/IconTableWithoutHeadings.svg) | `IconTableWithoutHeadings` |
 | ![IconTable](dist/icons/IconTable.svg) | `IconTable` |
 | ![IconTag](dist/icons/IconTag.svg) | `IconTag` |
+| ![IconTerminal](dist/icons/IconTerminal.svg) | `IconTerminal` |
 | ![IconText](dist/icons/IconText.svg) | `IconText` |
 | ![IconTranslate](dist/icons/IconTranslate.svg) | `IconTranslate` |
 | ![IconTrash](dist/icons/IconTrash.svg) | `IconTrash` |
