@@ -15,8 +15,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: lts/*
 
@@ -40,4 +40,4 @@ jobs:
             echo "tag=latest" >> "$GITHUB_OUTPUT"
           fi
 
-      - run: npm --version && npm publish --access public --tag ${{ steps.tag.outputs.tag }} --loglevel verbose
+      - run: npm publish --access public --tag ${{ steps.tag.outputs.tag }}
