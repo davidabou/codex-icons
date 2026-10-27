@@ -105,6 +105,7 @@ You will get the line: `<svg xmlns="http://www.w3.org/2000/svg" ...`
 | ![IconHidden](dist/icons/IconHidden.svg) | `IconHidden` |
 | ![IconHome](dist/icons/IconHome.svg) | `IconHome` |
 | ![IconHtml](dist/icons/IconHtml.svg) | `IconHtml` |
+| ![IconInbox](dist/icons/IconInbox.svg) | `IconInbox` |
 | ![IconInfo](dist/icons/IconInfo.svg) | `IconInfo` |
 | ![IconInstagram](dist/icons/IconInstagram.svg) | `IconInstagram` |
 | ![IconItalic](dist/icons/IconItalic.svg) | `IconItalic` |
