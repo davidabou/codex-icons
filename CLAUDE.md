@@ -74,10 +74,6 @@ Values measured on the existing icons (`check`, `plus`, `search`, `picture`, `wa
 - No complex `transform` when direct coordinates would do.
 - No canvas size other than 24×24, no stroke width other than 2 (except 2.6 for dots).
 
-### Known exception (do not use as a model)
-
-`brackets-vertical.svg` is 20×20 with a 1.6 `#747E88` stroke: it comes from an upstream contribution that does not follow the style guide. Do not take inspiration from it; do not modify it either without an explicit request, to stay aligned with upstream.
-
 ## Adding an icon — checklist
 
 1. Pick 2–3 similar existing icons (same family or same complexity) as references and re-read them before drawing.
@@ -85,7 +81,7 @@ Values measured on the existing icons (`check`, `plus`, `search`, `picture`, `wa
 3. Readable coordinates: round to 2 decimals max when possible; snap straight lines to integers/half-integers (crisp rendering).
 4. Check consistency with a quick sanity check:
    ```sh
-   grep -L 'viewBox="0 0 24 24"' src/icons/*.svg          # should only list known exceptions
+   grep -L 'viewBox="0 0 24 24"' src/icons/*.svg          # should list nothing
    grep -oh 'stroke-width="[^"]*"' src/icons/*.svg | sort | uniq -c
    ```
 5. `bun run build`, then visually check the new icon in `showcase.png`, next to the existing ones (also check `dist/icons/Icon<Name>.svg` at 24px **and** 16px).
